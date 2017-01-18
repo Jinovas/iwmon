@@ -1,0 +1,10 @@
+#!/usr/bin/python
+#curiouskitty
+
+import os
+
+os.system('ifconfig wlan1 down')
+
+os.system('iwconfig wlan1 mode monitor')
+
+os.system('ifconfig wlan1 up')
