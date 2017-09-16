@@ -4,4 +4,4 @@ iwmon is a smiple bash script to put any device into monitor mode without killin
 
 usage:
 
-iwmon <device>
+"iwmon wlan1"
