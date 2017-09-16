@@ -1,10 +1,7 @@
-#!/usr/bin/python
-#curiouskitty
+#!/bin/bash
 
-import os
+ifconfig $1 down
 
-os.system('ifconfig wlan1 down')
+iwconfig $1 mode monitor
 
-os.system('iwconfig wlan1 mode monitor')
-
-os.system('ifconfig wlan1 up')
+ifconfig $1 up
